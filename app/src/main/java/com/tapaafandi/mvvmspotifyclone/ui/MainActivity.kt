@@ -1,8 +1,9 @@
-package com.tapaafandi.mvvmspotifyclone
+package com.tapaafandi.mvvmspotifyclone.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.RequestManager
+import com.tapaafandi.mvvmspotifyclone.R
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
