@@ -42,9 +42,9 @@ abstract class BaseSongAdapter(
         )
     }
 
-    private var onItemClickListener: ((Song) -> Unit)? = null
+    protected var onItemClickListener: ((Song) -> Unit)? = null
 
-    fun setOnItemClickListener(listener: (Song) -> Unit) {
+    fun setItemClickListener(listener: (Song) -> Unit) {
         onItemClickListener = listener
     }
 
