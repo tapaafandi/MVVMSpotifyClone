@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
         }
         mainViewModel.playbackState.observe(this) {
             playbackState = it
-            ivCurSongImage.setImageResource(
+            ivPlayPause.setImageResource(
                 if (playbackState?.isPlaying == true) R.drawable.ic_pause else R.drawable.ic_play
             )
         }
